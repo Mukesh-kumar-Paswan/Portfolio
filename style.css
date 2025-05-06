@@ -488,6 +488,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: relative;
+    background-color: #001f7c38;
 }
 
 .skills-box {
@@ -496,7 +497,7 @@ button:hover {
     position: relative;
     display: flex;
     align-items: start;
-    justify-content: center;
+    justify-content: center;  
 }
 
 .skills-image {
@@ -541,7 +542,7 @@ button:hover {
     bottom: 5%;
     right: 20%;
     width: 60%;
-    height: var(--heoght);
+    height: var(--height);
     overflow: hidden;
     mask-image: linear-gradient(
         to right,
@@ -549,6 +550,8 @@ button:hover {
         #000 10% 90%,
         transparent
     );
+    mix-blend-mode: difference;
+    opacity: 0.8;
 }
 
 .slider .list {
@@ -565,14 +568,14 @@ button:hover {
     left: 100%;
     animation: autoRun 10s linear infinite;
     transition: filter 0.5s;
-    animation: calc((10s / var(--quantity)) * (var(--position) -1) -10s)!important;
+    animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1) - 10s) !important;
 }
 
 .slider .list .item img {
-    width: 100;
+    width: 100% ;
 }
 
-@keyframes autoRun {
+@keyframes autoRun {        
     from {
         left: 100%;
     }to {
@@ -581,12 +584,12 @@ button:hover {
 }
 
 .slider:hover .item {
-    animation-play-state: paused!important;
+    animation-play-state: paused !important;
     filter: grayscale(1);
 }
 
 .slider .item:hover {
-    filter: grayscale(0w);
+    filter: grayscale(0);
 }
 
 

@@ -5,6 +5,9 @@ body {
     color: lightgray;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 .container {
     position: relative;
     width: 100%;
@@ -37,7 +40,7 @@ header {
     backdrop-filter: blur(10px);
     padding: 0 30px;
     box-shadow: 0 0 15px #72a1de68;
-    z-index: 99;
+    z-index: 999;
 }
 
 .left {
@@ -488,7 +491,8 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: relative;
-    background-color: #001f7c38;
+
+    /* background-color: #001f7c38; */
 }
 
 .skills-box {
@@ -591,6 +595,384 @@ button:hover {
 .slider .item:hover {
     filter: grayscale(0);
 }
+
+/* Contact Section */
+.contact-section {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    position: relative;
+
+    /* background-color: #001f7c38; */
+}
+
+.contact-section h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.social-box a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+
+.social-box i {
+    color: #727fde;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.social-icons a i {
+    color: white;
+    margin-top: 40px;
+}
+
+.contact-box p {
+    max-width: 400px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.contact-box input {
+    padding: 7.5px 30px;
+    background-color: lightgray;
+    width: 80%;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contact-box button {
+    margin-top: 30px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid #727fdeb4;
+    background-color: #2200493d;
+    box-shadow: 0 0 5px #727fde86;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    box-shadow: 0 0 15px #727fde86;
+    opacity: 0.7;
+}
+ 
+footer {
+    display: flex;
+    position: absolute;
+    right: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.128);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(255 , 255 , 255 , 0.356);
+    z-index: 999;
+}
+
+footer h1 {
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

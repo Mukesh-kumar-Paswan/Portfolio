@@ -753,299 +753,119 @@ footer h1 {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Mobile Responsive */
+@media screen and (max-width: 700px) {
+    header {
+        position: fixed;
+        height: 50px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header .box-icons {
+        display: 25px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .blackhole-box video {
+        margin-top: -16%;
+    }
+
+    .here {
+        flex-direction: column;
+    }
+
+    .autoBlur {
+        animation: none;
+    }
+
+    .here-info {
+        bottom: 5%;
+    }
+
+    .scroll-down {
+        bottom: 5%;
+    }
+
+    .here-info h1 {
+        line-height: 50px;
+    }
+
+    .hero-vid-box {
+        height: 200px;
+        top: 5%;
+        right: 5%;
+    }
+
+    .card video {
+        width: 100%;
+    }
+
+    .my-projects {
+        margin-bottom: 600px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        margin-left: 25%;
+        gap: 30px;
+    }
+
+    .project-info {
+        width: 85%;
+    }
+
+    .project-info p {
+        max-width: 300px;
+    }
+
+    .designer {
+        top: 15%;
+        left: 18%;
+    }
+
+    .coder {
+        top: 50%;
+        left: 18%;
+    }
+
+    .skills-box h1 {
+        margin-bottom: 0;
+        margin-top: 70px;
+    }
+
+    .slider {
+        bottom: 0;
+    }
+
+    .slider img {
+        width: 60%;
+    }
+
+    .contact-section {
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .contact-section .section-title {
+        top: -50px;
+        left: 25%;
+    }
+
+    footer h1 {
+        font-size: 17px;
+    }
+
+    .project-vidbox {
+        min-width: 200px;
+    }
+}
 
 @media (max-aspect-ratio: 16/9) {
     .back-vid {

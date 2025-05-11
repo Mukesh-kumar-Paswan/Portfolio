@@ -361,7 +361,7 @@ button:hover {
 }
 
 /* My Project */
-.my-projects   {
+/* .my-projects   {
     display: flex;
     flex-direction: column;
     gap: 10%;
@@ -483,7 +483,7 @@ button:hover {
 
 .hover-sigh.active {
     display: none;
-}
+} */
 
 /* skills Section */
 .skills-section {
@@ -491,8 +491,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: relative;
-
-    background-color: #001f7c38;
 }
 
 .skills-box {
@@ -606,15 +604,13 @@ button:hover {
     gap: 10%;
     align-items: center;
     position: relative;
-
-    background-color: #001f7c38;
 }
 
 .contact-section h1 {
     position: absolute;
     top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 42%;
+    /* transform: translateX(-50%); */
 }
 
 .social-box {

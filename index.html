@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Document</title>
+    <title>PortFolio</title>
 </head>
 <body>
     
@@ -20,9 +20,9 @@
             </div>
 
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skill</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a id="abut" href="#clickAbut">About</a></li>
+                <li><a id="skull" href="#clickSkull">Skill</a></li>
+                <li><a id="contact-link" href="#contact-sections">Contact</a></li>
             </ul>
 
             <div class="box-icons">
@@ -30,8 +30,6 @@
                 <a href="https://www.linkedin.com/in/mukesh-kumar-paswan-221361361/" target="_blank"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://x.com/MukeshKuma54560" target="_blank"><i class='bx bxl-twitter'></i></a>
             </div>
-
-            <div class="menu-icon"><i class="bx bx-menu"></i></div>
         </header>
 
         <div class="sidebar">
@@ -72,15 +70,11 @@
                 <button><i class="bx bx-send"></i> Contact Me </button>
             </div>
 
-            <div class="hero-vid-box">
-                <video class="autoBlur" autoplay loop muted plays-inline src="Videos/hero-video.mp4" type="video/mp4"></video>
-            </div>
-
             <div class="scroll-down"></div>
         </section>
 
-        <section class="info-section">
-            <h1 class="section-title autoDisplay">Hello, There👋</h1>
+        <section class="info-section" id="clickAbut">
+            <h1 class="section-title autoDisplay"> <span class="gradient">Hello, There </span>👋</h1>
             
             <div class="info-card">
                 <div class="card">
@@ -102,7 +96,6 @@
                     <p>I am highly adaptable and open to communication across different time zones and locations, ensuring seamless collaboration.</p>
                     
                     <video autoplay loop muted plays-inline src="Videos/glob.mp4" type="video/mp4"></video>
-                    <!-- <button><i class="bx bx-link-external"></i>Contact Me</button> -->
                 </div>
 
                 <div class="card">
@@ -114,54 +107,9 @@
             </div>
         </section>
 
-        <!-- <section class="my-projects">
-            <h1 class="section-title autoDisplay">MY Projects ⚒️</h1>
-            <div class="project-card">
-                <div class="project-vidbox autoBlur">
-                    <video id="ProjectVideo1" src="Videos/project1.mp4"></video>
-                    <div class="hover-sigh"></div>
-                </div>
-
-                <div class="project-info fadeInRight">
-                    <h1>Animated <span class="gradient"> Website </span></h1>                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ducimus deleniti voluptas quisquam repellat atque dicta ea, est in. Odit, tenetur. Aperiam perferendis soluta totam, aliquid temporibus quisquam veritatis sint!</p>
-
-                    <button><i class="bx bx-link-external"></i> Website</button>
-
-                </div>
-            </div>
-                <div class="project-card">
-                    <div class="project-vidbox autoBlur">
-                        <video id="ProjectVideo2" src="Videos/project2.mp4"></video>
-                    </div>
-    
-                    <div class="project-info fadeInRight">
-                        <h1>Gaming <span class="gradient"> Website </span></h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ducimus deleniti voluptas quisquam repellat atque dicta ea, est in. Odit, tenetur. Aperiam perferendis soluta totam, aliquid temporibus quisquam veritatis sint!</p>
-    
-                        <button><i class="bx bx-link-external"></i> Website</button>
-                        
-                    </div>
-                </div>
-
-                    <div class="project-card">
-                        <div class="project-vidbox autoBlur">
-                            <video id="ProjectVideo3" src="Videos/project3.mp4"></video>
-                        </div>
-        
-                        <div class="project-info fadeInRight">
-                            <h1>AI <span class="gradient"> Website </span></h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ducimus deleniti voluptas quisquam repellat atque dicta ea, est in. Odit, tenetur. Aperiam perferendis soluta totam, aliquid temporibus quisquam veritatis sint!</p>
-        
-                            <button><i class="bx bx-link-external"></i> Website</button>
-                            
-                        </div>
-                    </div>
-            </div>
-        </section> -->
-
-        <section class="skills-section">
+        <section class="skills-section" id="clickSkull">
             <h1 class="section-title autoDisplay">
-                My Skills 💪    
+                <span class="gradient">My Skills</span> 💪    
             </h1>
 
             <div class="skills-box">
@@ -186,8 +134,6 @@
                         <div class="item" style="--position: 1"><img src="Images/1.png" alt="slider-image"></div>
                         <div class="item" style="--position: 2"><img src="Images/2.png" alt="slider-image"></div>
                         <div class="item" style="--position: 3"><img src="Images/3.png" alt="slider-image"></div>
-                        <!-- <div class="item" style="--position: 4"><img src="Images/4.png" alt="slider-image"></div> -->
-                        <!-- <div class="item" style="--position: 5"><img src="Images/5.png" alt="slider-image"></div> -->
                         <div class="item" style="--position: 4"><img src="Images/6.png" alt="slider-image"></div>
                         <div class="item" style="--position: 5"><img src="Images/7.png" alt="slider-image"></div>
                         <div class="item" style="--position: 6"><img src="Images/8.png" alt="slider-image"></div>
@@ -197,25 +143,10 @@
             </div>
         </section>
 
-        <section class="contact-section">
-            <h1 class="section-title autoDisplay">Let's talk😊</h1>
-
-            <div class="social-box autoBlur">
-                <a href="# "><i class='bx bxl-gmail'></i> Mukesh kumar Paswan</a>
-                <a href="https://github.com/Mukesh-kumar-Paswan" target="_blank"><i class="bx bxl-github"></i> Mukesh kumar Paswan</a>
-                <a href="https://www.linkedin.com/in/mukesh-kumar-paswan-221361361/" target="_blank"><i class="bx bxl-linkedin-square"></i> Mukesh kumar Paswan</a>
-            
-                <div class="social-icons">
-                    <!-- <a href="#"><i class="bx bxl-youtube"></i></a> -->
-                    <a href="#"><i class="bx bxl-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/mukesh-kumar-paswan-221361361/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <!-- <a href="#"><i class="bx bxl-facebook-circle"></i></a> -->
-                </div>
-            </div>
+        <section class="contact-section" id="contact-sections">
+            <h1 class="section-title autoDisplay "><span class="gradient">Let's talk</span>😊</h1>
 
             <div class="contact-box autoBlur">
-                <!-- <p>Wheter you're looking to build a new website, improve your existing platform, or brigh a unique project to fil. I'm here to help</p> -->
-                <form action="#">
                     <p>Full Name</p>
                     <input type="text" placeholder="Your Full Name">
                     
@@ -225,14 +156,10 @@
                     <p>Your Message</p>
                     <input class="input-message" type="text" placeholder="Share your thoughts...">
                     
-                    <button type="submit"><i class="bx bx-send"></i> Send Message</button>
-                    </form>
+                    <button id="send-btn"><i class="bx bx-send"></i> Send Message</button>
+                    <div id="notification"></div>
             </div>
         </section>
-
-        <!-- <footer>
-            <h1>Copyright @ random , Made with ❤️ by RandomCode</h1>
-        </footer> -->
     </div>
 
 

@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,9 +9,6 @@ body {
     color: lightgray;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 .container {
     position: relative;
     width: 100%;
@@ -169,6 +170,7 @@ button:hover {
     box-shadow: 0 0 15px #727fde86;
 }
 
+
 /* Gradient Animation */
 .gradient {
     background: linear-gradient(to right , #009baa , #7e42a7 , #6600c5 , #6070fd , #2a46ff , #0099ff , #008ead);
@@ -183,16 +185,6 @@ button:hover {
     to {
         background-position: 200%;
     }
-}
-
-.hero-vid-box {
-    position: absolute;
-    right: 3%;
-}
-
-.hero-vid-box video {
-    height: 900px;
-    mix-blend-mode: lighten;
 }
 
 .scroll-down {
@@ -360,131 +352,6 @@ button:hover {
     bottom: 35%;
 }
 
-/* My Project */
-/* .my-projects   {
-    display: flex;
-    flex-direction: column;
-    gap: 10%;
-    align-items: center;
-    position: relative;
-    width: 80%;
-    height: 100vh;
-    margin-top: 200px;
-    margin-bottom: 700px;
-}
-
-.project-card {
-    display: flex;
-    width: 100%;
-    height: 40%;
-    align-items: center;
-    gap: 10%;
-    justify-content: center;
-}
-
-.project-vidbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    position: relative;
-    cursor: pointer;
-    min-width: 400px;
-    transition: 0.5s;
-    mix-blend-mode: exclusion;
-}
-
-.project-vidbox video {
-    object-fit: cover;
-    width: 100%;
-    box-shadow: 0 0 10px lightgray;
-    border-radius: 20px;
-    transition: 0.5s;
-}
-
-.project-vidbox video:hover {
-    box-shadow: 0 0 20px lightgray;
-}
-
-.project-info {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    width: 50%;
-    padding-left: 10%;
-}
-
-.project-info h1 {
-    width: 90%;
-    font-size: 25px;
-    font-weight: bold;
-    text-wrap: nowrap;
-    margin-bottom: 10px;
-    margin-top: 0;
-    max-width: 450px;
-}
-
-.project-info p {
-    width: 90%;
-    max-width: 400px;
-    min-width: 300px;
-    margin-bottom: 50px;
-    margin-top: 0;
-}
-
-.project-info button {
-    color: white;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: 1px solid #727fdeb4;
-    background-color: #2200493d;
-    box-shadow: 0 0 5px #727fde86;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.project-info button:hover {
-    box-shadow: 0 0 15px #727fde86;
-    opacity: 0.7;
-}
-
-.hover-sigh {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 100px;
-}
-
-.hover-sigh::before , 
-.hover-sigh::after {
-    content:"👆";
-    text-align: center;
-    position: absolute;
-    font-size: 50px;
-    top: 20%;
-    left: 40%;
-    border-radius: 50%;
-    animation: hoverAnimation 3s ease-in-out infinite;
-}
-
-@keyframes hoverAnimation {
-    0% {
-        box-shadow: 0 0 5px lightgray;
-        transform: translate(100% , 50%) rotate(30deg);
-    }
-    100% {
-        box-shadow: 0 0 15px lightgray;
-        transform: translateX(80% , 50%) rotate(0deg);
-    }
-}
-
-.hover-sigh.active {
-    display: none;
-} */
-
 /* skills Section */
 .skills-section {
     display: flex;
@@ -610,31 +477,6 @@ button:hover {
     position: absolute;
     top: 10%;
     left: 42%;
-    /* transform: translateX(-50%); */
-}
-
-.social-box {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.social-box a {
-    color: lightgray;
-    text-decoration: none;
-    font-size: 20px;
-    text-wrap: nowrap;
-}
-
-.social-box i {
-    color: #727fde;
-    font-size: 30px;
-    margin-right: 10px;
-}
-
-.social-icons a i {
-    color: white;
-    margin-top: 40px;
 }
 
 .contact-box p {
@@ -650,14 +492,14 @@ button:hover {
     height: 25px;
     border: none;
     outline: none;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
 }
 
 .contact-box button {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: 200px;
     color: white;
-    padding: 5px 15px;
+    padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid #727fdeb4;
     background-color: #2200493d;
@@ -670,31 +512,49 @@ button:hover {
     box-shadow: 0 0 15px #727fde86;
     opacity: 0.7;
 }
- 
-footer {
-    display: flex;
-    position: absolute;
-    right: 0;
-    left: 0;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-    background-color: rgba(255, 255, 255, 0.128);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 15px rgba(255 , 255 , 255 , 0.356);
-    z-index: 999;
-}
 
-footer h1 {
-    font-size: 30px;
-}
-
-.menu-icon {
-    font-size: 35px;
+/* Button Styling */
+#sendButton {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
     cursor: pointer;
-    display: none;
+    border-radius: 5px;
 }
 
+#sendButton:hover {
+    background-color: #005f73;
+}
+
+/* testing area */
+/* Notification (toast) */
+#notification {
+  position: fixed;
+  top: 330px;
+  left: 50%;
+  transform: translateX(200%);
+  background-color: #727fde1f;
+  color: white;
+  padding: 12px 24px;
+  border: 1px solid #727fdeb4;
+  box-shadow: 0 0 5px #727fde86;
+  border-radius: 20px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 9999;
+}
+
+/* Show notification */
+#notification.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* testing arae */
 /* SideBar */
 
 .sidebar {
